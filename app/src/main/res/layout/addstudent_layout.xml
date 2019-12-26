@@ -11,8 +11,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="Student Details"
-        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:text="Student Details"
+        android:textSize="40sp"
         />
 
 
@@ -89,6 +91,7 @@
         android:layout_width="match_parent"
         android:hint="Enter Age"
         android:textSize="20dp"
+        android:inputType="number"
         android:layout_margin="20dp"
         android:textStyle="bold"
 
@@ -99,6 +102,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="Save"
+        android:layout_margin="10dp"
         android:background="@android:drawable/button_onoff_indicator_off"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:textSize="20dp"

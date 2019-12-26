@@ -74,6 +74,7 @@ public class ContactActivity extends RecyclerView.Adapter<ContactActivity.Contac
       });
 
 
+
     }
 
     @Override
